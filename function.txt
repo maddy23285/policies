@@ -1,0 +1,142 @@
+@Override
+	public RegistrationResponseTO saveForeignEmployer(ForeignEmployerRequestBody foreignEmployerDetails, List<MultipartFile> file)
+			throws IOException, DuplicateEmailException, BadRequestException, InvalidKeyException, UnrecoverableKeyException, NoSuchAlgorithmException, NoSuchPaddingException, KeyStoreException, CertificateException, IllegalBlockSizeException, BadPaddingException {
+		ForeignEmployer foreignEmployer = new ForeignEmployer();
+		User user = new User();
+
+		if (!userRepository.existsByEmail(foreignEmployerDetails.getEmailId())) {
+
+			if (otpEnabled) {
+				if (!otpRepository.existsByIdIsAndContactIsAndExpiresAtAfterAndExpiredIsTrue(
+						foreignEmployerDetails.getEmailTransactionId(),
+						foreignEmployerDetails.getEmailId(), Timestamp.valueOf(LocalDateTime.now()))) {
+					/* throw new BadRequestException(EMAIL_NOT_VERIFIED); */
+					foreignEmployer.setIsEmailIdVerified(0);
+				}else {
+					foreignEmployer.setIsEmailIdVerified(1);
+				}
+			}else {
+				foreignEmployer.setIsEmailIdVerified(1);
+			}
+			
+			ObjectMapper objectMapper = new ObjectMapper();
+			if (file != null && !file.isEmpty() && !file.get(0).isEmpty() && foreignEmployerDetails.getMapper() != null
+					&& !foreignEmployerDetails.getMapper().isBlank()) {
+
+				for (MultipartFile files : file) {
+					String filename = files.getOriginalFilename();
+					//-->Wasa-Fix (Case-1 Malicious File Upload)
+					if(org.springframework.util.StringUtils.countOccurrencesOf(filename, ".") > 1) {
+						throw new BadRequestException(filename + " is not a valid name !!. Please check for multiple extensions");
+					}
+					if(XSSFileDetection.isMaliciousCodeInFile(files)) {
+						throw new BadRequestException(filename + " is not allowed !!. Please select valid file type");
+					}
+					
+					String extension = filename.substring(filename.lastIndexOf("."));
+					String fileMimeType = files.getContentType();
+					String mimeType = MimeTypes.getMimeType(extension.replace(".","").toLowerCase());
+					if(!fileMimeType.equals(mimeType) || 
+							!Arrays.asList(allowedMimeTypes).contains(mimeType) || 
+							!Arrays.asList(allowedFileExtensions).contains(extension)
+						) {
+						throw new BadRequestException(files.getOriginalFilename() + " is not allowed !!. Please select valid file type");
+					}
+				}
+			}
+			user.setEmail(foreignEmployerDetails.getEmailId());
+
+			UserType recruiterType = recruiterTypeRepository.getById(2);
+			user.setRecruiterType(recruiterType);
+			user.setCreatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			user.setUpdatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			user = userRepository.save(user);
+			int userid = user.getId();
+			Password password = new Password();
+			password.setPassword(bCryptPasswordEncoder.encode(rsaUtil.decrypt(foreignEmployerDetails.getPassword())));
+			password.setCreatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			password.setUpdatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			password.setCreatedBy(userid);
+			password.setUpdatedBy(userid);
+			Password savedPassword = passwordRepository.save(password);
+
+			user.setPassword(savedPassword.getId());
+			user.setCreatedBy(userid);
+			user.setUpdatedBy(userid);
+			user = userRepository.save(user);
+
+			foreignEmployer.setUser(user);
+			foreignEmployer.setRegistrationNumber(foreignEmployerDetails.getPersonalIdNo());
+			foreignEmployer.setMeaRegisteredManagerEmail(foreignEmployerDetails.getEmailId());
+			foreignEmployer.setNameOfEmployer(foreignEmployerDetails.getEmployerName());
+			foreignEmployer.setAddress(foreignEmployerDetails.getAddress());
+
+			foreignEmployer.setState(foreignEmployerDetails.getState());
+
+			foreignEmployer.setDistrict(foreignEmployerDetails.getDistrict());
+
+			Country country = countryRepository.findByenShortName(foreignEmployerDetails.getCountry());
+			foreignEmployer.setCountry(country.getId());
+			foreignEmployer.setPinCode(foreignEmployerDetails.getPincode());
+
+			foreignEmployer
+					.setRegistrationValidityUpTo(LocalDate.parse(foreignEmployerDetails.getValidityUpto(),
+							DateTimeFormatter.ofPattern("dd-MM-yyyy")).toString());
+			foreignEmployer.setMeaRegisteredManagerContactNumber(foreignEmployerDetails.getContactNo());
+
+			Status status = statusRepository.findById(1);
+			foreignEmployer.setStatusBean(status);
+			foreignEmployer.setCreatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			foreignEmployer.setUpdatedAt(Timestamp.valueOf(LocalDateTime.now()));
+			foreignEmployer.setCreatedBy(userid);
+			foreignEmployer.setUpdatedBy(userid);
+			foreignEmployer.setReadStatus(0);
+			foreignEmployerRepository.save(foreignEmployer);
+			
+			if (file != null && !file.isEmpty() && !file.get(0).isEmpty() && foreignEmployerDetails.getMapper() != null
+					&& !foreignEmployerDetails.getMapper().isBlank()) {
+
+				@SuppressWarnings("unchecked")
+				Map<String, String> map = objectMapper.readValue(foreignEmployerDetails.getMapper(), Map.class);
+
+				List<String> docTypeId = new ArrayList<String>();
+				List<String> docUrl = new ArrayList<String>();
+
+				int count = 0;
+
+				for (Entry<String, String> e : map.entrySet()) {
+					docTypeId.add(e.getValue());
+					docUrl.add(e.getKey());
+
+				}
+				for (MultipartFile files : file) {
+					UserRegistrationDoc userRegistrationDoc = new UserRegistrationDoc();
+
+					userRegistrationDoc.setUserid(userid);;
+					userRegistrationDoc.setCreatedAt(Timestamp.valueOf(LocalDateTime.now()));
+					userRegistrationDoc.setCreatedBy(userid);
+					userRegistrationDoc.setUpdatedAt(Timestamp.valueOf(LocalDateTime.now()));
+					userRegistrationDoc.setUpdatedBy(userid);
+					userRegistrationDoc.setDocName(files.getOriginalFilename());
+
+					DocType docType = documentTypeRepository.findById(Integer.parseInt(docTypeId.get(count)));
+					userRegistrationDoc.setDocType(docType);
+
+					UserRegistrationDoc savedDoc = userRegistrationDocRepository.save(userRegistrationDoc);
+
+					s3Service.saveFile("fp." + savedDoc.getId().toString(), files);
+					count++;
+				}
+			}
+			RegistrationMessageTO connectMessage = new RegistrationMessageTO();
+
+			connectMessage.setStatus("Success");
+
+			RegistrationResponseTO connectResponse = new RegistrationResponseTO();
+			connectResponse.setMessage(connectMessage);
+			return connectResponse;
+		} else {
+			throw new DuplicateEmailException("Email Id already exist");
+
+		}
+	}
