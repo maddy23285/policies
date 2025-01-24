@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="Page-1" id="iHvMa815yu0BBtonMexV">
-    <mxGraphModel>
+    <mxGraphModel dx="1246" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-1" value="Already Generated &lt;br&gt;ABHA Numbers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-2" value="91-9829-9283-9283" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tuYsb8rq_Tvrb9pPhs-q-1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-3" value="91-9829-9283-9829" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tuYsb8rq_Tvrb9pPhs-q-1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-4" value="91-9829-9283-8879" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="tuYsb8rq_Tvrb9pPhs-q-1">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-5" target="tuYsb8rq_Tvrb9pPhs-q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-8" value="Add if Not Exists" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tuYsb8rq_Tvrb9pPhs-q-7">
+          <mxGeometry x="0.1135" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-5" target="tuYsb8rq_Tvrb9pPhs-q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-5" value="Generate 10 ABHA Numbers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-9" value="1. This table will have all the ABHA Numbers.&lt;div&gt;2. Add ABHA number if not exists along with transaction id and status as &quot;Pending&quot;&lt;/div&gt;&lt;div&gt;3. Save ABHA number to accounts table and mark the status as &quot;Used/Saved&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Queries&amp;nbsp;&lt;/div&gt;&lt;div&gt;1. What if all 10 ABHA numbers already there in table.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-10" target="tuYsb8rq_Tvrb9pPhs-q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-10" value="Complete the Verification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-12" target="tuYsb8rq_Tvrb9pPhs-q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-12" value="Fetch Reserved ABHA Number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-1" target="tuYsb8rq_Tvrb9pPhs-q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-15" value="Save Details In Accounts Table" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-17" target="tuYsb8rq_Tvrb9pPhs-q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-17" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-20" value="Aaadhaar Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuYsb8rq_Tvrb9pPhs-q-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tuYsb8rq_Tvrb9pPhs-q-20" target="tuYsb8rq_Tvrb9pPhs-q-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
