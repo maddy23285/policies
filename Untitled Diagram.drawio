@@ -1,9 +1,212 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="w4yM_OVlUn1tSCUoMzzU">
-    <mxGraphModel>
+    <mxGraphModel dx="1509" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-3" value="Client Applications" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-1" value="ABHA Potal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-3">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-2" value="Integrated Applications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-3">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-4" value="ABHA Services" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="230" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-5" value="Enrolment Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4">
+          <mxGeometry x="59" y="47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4" source="Dfum3mYCq1GaS5fJ5_Xi-6" target="Dfum3mYCq1GaS5fJ5_Xi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-34" value="Demographic&amp;nbsp;&lt;div&gt;Details&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-33">
+          <mxGeometry x="0.0098" y="1" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-6" value="ABDM Aadhaar Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4">
+          <mxGeometry x="59" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-7" value="Aadhaar Vault Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4">
+          <mxGeometry x="59" y="297" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4" source="Dfum3mYCq1GaS5fJ5_Xi-5" target="Dfum3mYCq1GaS5fJ5_Xi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="150" as="sourcePoint" />
+            <mxPoint x="-80" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="92" />
+              <mxPoint x="30" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-48" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ec2_aws_microservice_extractor_for_net;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-4">
+          <mxGeometry x="199" y="3" width="17" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-70" value="Aadhaar &lt;br&gt;Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-4">
+          <mxGeometry x="148" y="155" as="geometry">
+            <mxPoint x="-106" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681" y="730" as="sourcePoint" />
+            <mxPoint x="681" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.009;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Dfum3mYCq1GaS5fJ5_Xi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="821.4399999999996" y="492" as="sourcePoint" />
+            <mxPoint x="640" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-77" value="XML Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-20">
+          <mxGeometry x="0.7006" relative="1" as="geometry">
+            <mxPoint x="20" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-21" value="Transaction Log" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="437" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-6" target="Dfum3mYCq1GaS5fJ5_Xi-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-55" value="Log Transaction Details&lt;div&gt;TransactionID&lt;/div&gt;&lt;div&gt;Auth Mode&lt;/div&gt;&lt;div&gt;Biometric Device Details&lt;/div&gt;&lt;div&gt;Client ID of User etc.&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-22">
+          <mxGeometry x="0.1721" y="1" relative="1" as="geometry">
+            <mxPoint x="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-23" value="Aadhaar &lt;br&gt;Vault" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="567" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-7" target="Dfum3mYCq1GaS5fJ5_Xi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-25" value="HSM Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="707" y="577" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-7" target="Dfum3mYCq1GaS5fJ5_Xi-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="591.5" as="targetPoint" />
+            <mxPoint x="590" y="592" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-74" value="Aadhaar Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-26">
+          <mxGeometry x="0.0206" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-25" target="Dfum3mYCq1GaS5fJ5_Xi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="621.5" as="sourcePoint" />
+            <mxPoint x="580" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-75" value="HSM Encrypted&lt;br&gt;Aadhaar Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-27">
+          <mxGeometry x="0.1014" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-5" target="Dfum3mYCq1GaS5fJ5_Xi-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="357" />
+              <mxPoint x="650" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-59" value="&amp;nbsp;Notify Successful ABHA Creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-36">
+          <mxGeometry x="0.7137" relative="1" as="geometry">
+            <mxPoint x="47" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-44" value="&amp;nbsp; &amp;nbsp;NIC Gateway / &lt;br&gt;UIDAI Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="707" y="447" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569" y="464" as="sourcePoint" />
+            <mxPoint x="707" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-76" value="Auth / KYC &lt;br&gt;Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-45">
+          <mxGeometry x="-0.0252" y="3" relative="1" as="geometry">
+            <mxPoint x="15" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-37" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="449" width="19.17" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="343" as="sourcePoint" />
+            <mxPoint x="459" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-49" value="WSO2&amp;nbsp;&lt;div&gt;API Gateway&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="260" y="302" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-56" value="Store&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Aadhaar Number and ABHA Number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Aadhaar number is HSM Encrypted&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260.00157894736856" y="607" as="geometry">
+            <mxPoint x="-5" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-60" value="Work Flow" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="760" width="670" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-61" value="1. User sends encrypted Aadhaar number in request body, which is decoded and validated by Enrolment Service. Every external requests to ABHA services passes through API Gateway" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="30" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-62" value="2. Enrolment Service delegates the authentication process to dedicated internal ABDM Aadhaar Service which is not exposed to outer world." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="70" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-64" value="3. Aadhaar service generates session key, prepares Auth / KYC request XML and encrypt the data using session key." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="110" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-65" value="4. Aadhaar service calls UIDAI servers through NIC gateways." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="140" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-66" value="5. Upon receiving response from NIC gateway, Aadhaar service logs the transaction details including Transaction ID, API Version, API URL, Request Time, Response Time, Device Details, Authentication Mode, Caller ID / Client ID etc." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="170" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-63" value="6. After successful ABHA creation, an notification sent to Aadhaar Vault to store the ABHA number and respective Aadhaar number in Aadhaar Vault. Aadhaar number is encrypted using HSM service before storing it into vault." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dfum3mYCq1GaS5fJ5_Xi-60">
+          <mxGeometry y="210" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dfum3mYCq1GaS5fJ5_Xi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="458" y="360" as="sourcePoint" />
+            <mxPoint x="458" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="360" />
+              <mxPoint x="410" y="360" />
+              <mxPoint x="410" y="400" />
+              <mxPoint x="410" y="592" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-73" value="Aadhaar and&amp;nbsp;&lt;div&gt;ABHA Number&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dfum3mYCq1GaS5fJ5_Xi-67">
+          <mxGeometry x="0.339" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-68" value="RSA Encrypted&lt;br&gt;Aadhaar &lt;br&gt;Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="196.0031056741873" y="354.00290606398437" as="geometry">
+            <mxPoint x="-1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dfum3mYCq1GaS5fJ5_Xi-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dfum3mYCq1GaS5fJ5_Xi-3" target="Dfum3mYCq1GaS5fJ5_Xi-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="430" as="sourcePoint" />
+            <mxPoint x="190" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
