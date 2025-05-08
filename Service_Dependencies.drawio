@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="pUM4BPq0rJSFYlZAdxih">
-    <mxGraphModel dx="820" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1079" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-39" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
-          <mxGeometry x="487" y="310" width="71.55" height="53" as="geometry" />
+          <mxGeometry x="487" y="368" width="71.55" height="53" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-40" value="Consumer Services" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="655" y="298" width="160" height="193" as="geometry" />
@@ -147,7 +147,7 @@
           <mxGeometry x="938" y="491" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-63" value="Kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="488" y="333" width="50" height="30" as="geometry" />
+          <mxGeometry x="488" y="391" width="50" height="30" as="geometry" />
         </mxCell>
         <UserObject label="Notification Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-notification" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-65">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
@@ -252,8 +252,18 @@
             <mxPoint x="760.665" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZZ5xYyGuq51V9hhBytKh-107" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-46" target="ZZ5xYyGuq51V9hhBytKh-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-107" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-41" target="ZZ5xYyGuq51V9hhBytKh-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-108" value="." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="98" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-109" value="." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="118" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
