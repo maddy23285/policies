@@ -34,27 +34,27 @@
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-20" value="Global Services" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="238" y="328" width="160" height="213" as="geometry" />
         </mxCell>
-        <UserObject label="Aadhaar Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-21">
+        <UserObject label="Aadhaar Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-aadhaar" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-21">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
             <mxGeometry x="12" y="38" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Document Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-24">
+        <UserObject label="Document Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-document" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-24">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
             <mxGeometry x="11.5" y="66" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="LGD Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-23">
+        <UserObject label="LGD Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-lgd" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-23">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
             <mxGeometry x="11.5" y="120" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Card Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-26">
+        <UserObject label="Card Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-card-generation" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-26">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
             <mxGeometry x="249" y="421" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="QR Code Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-27">
+        <UserObject label="QR Code Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-qr-code" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-27">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
             <mxGeometry x="249" y="475" width="135" height="20" as="geometry" />
           </mxCell>
@@ -149,7 +149,7 @@
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-63" value="Kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="498" y="418" width="50" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="Notification Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-65">
+        <UserObject label="Notification Service" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-notification" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-65">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
             <mxGeometry x="249" y="503" width="135" height="20" as="geometry" />
           </mxCell>
