@@ -96,7 +96,7 @@
             <mxGeometry x="12" y="40" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Dashboard Audit" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-42">
+        <UserObject label="Dashboard Audit" treeRoot="1" link="http://100.65.158.39/abha-container/cunsumerservice" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-42">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
             <mxGeometry x="12" y="68" width="135" height="20" as="geometry" />
           </mxCell>
@@ -111,7 +111,7 @@
             <mxGeometry x="11.5" y="124" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Vault" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-46">
+        <UserObject label="Vault" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-vault-token" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-46">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
             <mxGeometry x="12.5" y="152" width="135" height="20" as="geometry" />
           </mxCell>
