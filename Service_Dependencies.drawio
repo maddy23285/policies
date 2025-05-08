@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="pUM4BPq0rJSFYlZAdxih">
-    <mxGraphModel>
+    <mxGraphModel dx="976" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-18" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;startArrow=none;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-13" target="ZZ5xYyGuq51V9hhBytKh-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="ABHA Services" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-13">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="365" y="35" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-14" target="ZZ5xYyGuq51V9hhBytKh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-14" value="ABHA DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-20" value="Global Services" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="160" height="220" as="geometry" />
+        </mxCell>
+        <UserObject label="Aadhaar Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-21">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
+            <mxGeometry x="12" y="40" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Notification Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-22">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
+            <mxGeometry x="12" y="69" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Document Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-24">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
+            <mxGeometry x="11.5" y="98" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="LGD Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-23">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-20">
+            <mxGeometry x="11.5" y="126" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Card Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-26">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="151" y="315" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="QR Code Service" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-27">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="151" y="344" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-28" target="ZZ5xYyGuq51V9hhBytKh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-28" value="Aadhaar/ Doc DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-30" target="ZZ5xYyGuq51V9hhBytKh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-30" value="LGD DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="266" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZZ5xYyGuq51V9hhBytKh-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="223" as="sourcePoint" />
+            <mxPoint x="152" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-35" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="71.55" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.639;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-35" target="ZZ5xYyGuq51V9hhBytKh-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="170" as="sourcePoint" />
+            <mxPoint x="470" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-39" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="71.55" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-40" value="Consumer Services" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="160" height="220" as="geometry" />
+        </mxCell>
+        <UserObject label="Demo Auth Mobile" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-41">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
+            <mxGeometry x="12" y="40" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Health ID Log" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-42">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
+            <mxGeometry x="12" y="69" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PHR Profile" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-43">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
+            <mxGeometry x="11.5" y="98" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="PHR Enrollment" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-44">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="ZZ5xYyGuq51V9hhBytKh-40">
+            <mxGeometry x="11.5" y="126" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
