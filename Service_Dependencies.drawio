@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="pUM4BPq0rJSFYlZAdxih">
-    <mxGraphModel dx="2050" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,13 +160,13 @@
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-68" value="MinIO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="630" y="138" width="52" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="ZZ5xYyGuq51V9hhBytKh-72" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-72" value="" style="shape=link;html=1;rounded=0;fillColor=#FF8000;strokeColor=#D06800;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="150" y="640" as="sourcePoint" />
             <mxPoint x="560" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZZ5xYyGuq51V9hhBytKh-73" value="External Services" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZZ5xYyGuq51V9hhBytKh-72">
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-73" value="&lt;b&gt;External Services&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fillColor=#FF8000;strokeColor=#FF0000;" vertex="1" connectable="0" parent="ZZ5xYyGuq51V9hhBytKh-72">
           <mxGeometry x="-0.1315" y="-2" relative="1" as="geometry">
             <mxPoint x="31" y="-2" as="offset" />
           </mxGeometry>
@@ -178,7 +178,7 @@
           <mxGeometry x="258" y="676" width="83.33" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-83" value="SMS API" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="364" y="676" width="83.33" height="80" as="geometry" />
+          <mxGeometry x="369" y="676" width="83.33" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-84" value="EMAIL API&lt;br&gt;NIC" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
           <mxGeometry x="471.55" y="676" width="83.33" height="80" as="geometry" />
@@ -197,7 +197,7 @@
             <mxPoint x="430" y="610" as="sourcePoint" />
             <mxPoint x="480" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="406" y="532" />
+              <mxPoint x="411" y="532" />
             </Array>
           </mxGeometry>
         </mxCell>
