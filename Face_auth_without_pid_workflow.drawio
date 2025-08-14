@@ -39,8 +39,8 @@
         <mxCell id="FUK5DQVGJvrS8Gn0Plb9-9" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;API:&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt; (POST: v3/enrollment/enrol/auth/init)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="112" y="103" width="151" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="FUK5DQVGJvrS8Gn0Plb9-10" value="&lt;div&gt;&lt;i&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;input:&lt;/b&gt; {&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;scope&quot;: [&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;abha-enrol&quot;,&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;face-auth&quot;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="244" y="80" width="220" height="30" as="geometry" />
+        <mxCell id="FUK5DQVGJvrS8Gn0Plb9-10" value="&lt;div&gt;&lt;i&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;Request:&lt;/b&gt; {&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;scope&quot;: [&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;abha-enrol&quot;,&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;face-auth&quot;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="234" y="80" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FUK5DQVGJvrS8Gn0Plb9-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -55,7 +55,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-OGo25qy_4eSdBosbhxD-48" value="Check and Retrieve TxnID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-OGo25qy_4eSdBosbhxD-23">
+        <mxCell id="-OGo25qy_4eSdBosbhxD-48" value="Retrieve and Validate TxnID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-OGo25qy_4eSdBosbhxD-23">
           <mxGeometry x="0.5226" y="-1" relative="1" as="geometry">
             <mxPoint x="39" as="offset" />
           </mxGeometry>
@@ -208,8 +208,8 @@
             <mxPoint x="47" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-OGo25qy_4eSdBosbhxD-50" value="&lt;div&gt;&lt;i&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;Output:&lt;/b&gt; {&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;txnId&quot;: &lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(53, 88, 81), rgb(255, 255, 255));&quot;&gt;d3d0e289-fc2e-4422-af8e-fa09ac0479fc&lt;/font&gt;&lt;/span&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;message&quot;: &quot;.....successfully&quot;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFE599;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="92" y="160" width="290" height="40" as="geometry" />
+        <mxCell id="-OGo25qy_4eSdBosbhxD-50" value="&lt;div&gt;&lt;i&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;Response:&lt;/b&gt; {&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;txnId&quot;: &lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(53, 88, 81), rgb(255, 255, 255));&quot;&gt;d3d0e289-fc2e-4422-af8e-fa09ac0479fc&lt;/font&gt;&lt;/span&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;message&quot;: &quot;.....successfully&quot;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#FFE599;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82" y="160" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-OGo25qy_4eSdBosbhxD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.99;exitY=0.311;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OGo25qy_4eSdBosbhxD-54" target="-OGo25qy_4eSdBosbhxD-55">
           <mxGeometry relative="1" as="geometry" />
@@ -228,7 +228,7 @@
         </mxCell>
         <mxCell id="-OGo25qy_4eSdBosbhxD-58" value="Check Capture Status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-OGo25qy_4eSdBosbhxD-57">
           <mxGeometry x="0.4305" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-OGo25qy_4eSdBosbhxD-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.018;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-OGo25qy_4eSdBosbhxD-55" target="-OGo25qy_4eSdBosbhxD-54">
@@ -251,11 +251,49 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-OGo25qy_4eSdBosbhxD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OGo25qy_4eSdBosbhxD-60" target="-OGo25qy_4eSdBosbhxD-61">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-OGo25qy_4eSdBosbhxD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="633.2941176470588" as="sourcePoint" />
+            <mxPoint x="515" y="633.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-OGo25qy_4eSdBosbhxD-60" value="Enroll By Aadhaar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="618" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-66" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="840" as="sourcePoint" />
+            <mxPoint x="820" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-72" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;External Services&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-OGo25qy_4eSdBosbhxD-66">
+          <mxGeometry x="0.0324" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-67" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="730" as="sourcePoint" />
+            <mxPoint x="530" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-68" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="-OGo25qy_4eSdBosbhxD-67">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-69" value="NIC Gateway (UIDAI Service)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="525" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OGo25qy_4eSdBosbhxD-69" target="-OGo25qy_4eSdBosbhxD-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="720" as="sourcePoint" />
+            <mxPoint x="560" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OGo25qy_4eSdBosbhxD-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="-OGo25qy_4eSdBosbhxD-61" target="-OGo25qy_4eSdBosbhxD-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="730" as="sourcePoint" />
+            <mxPoint x="350" y="680" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
