@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Page-1" id="pUM4BPq0rJSFYlZAdxih">
-    <mxGraphModel dx="1281" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jHsC-8kjhckoNTYq-SqD-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZ5xYyGuq51V9hhBytKh-13" target="ZZ5xYyGuq51V9hhBytKh-46">
+        <mxCell id="jHsC-8kjhckoNTYq-SqD-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZZ5xYyGuq51V9hhBytKh-13" target="yARi2ZSW1CV-vEadF2Cn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="ABHA Services" treeRoot="1" id="ZZ5xYyGuq51V9hhBytKh-13">
@@ -92,7 +92,7 @@
           <mxGeometry x="487" y="368" width="71.55" height="53" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-40" value="Consumer Services" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="655" y="298" width="160" height="193" as="geometry" />
+          <mxGeometry x="655" y="289" width="160" height="212" as="geometry" />
         </mxCell>
         <UserObject label="Demo Auth Mobile" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-abha-demo-auth-verification" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-41">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="ZZ5xYyGuq51V9hhBytKh-40" vertex="1">
@@ -114,7 +114,7 @@
             <mxGeometry x="11.5" y="124" width="135" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Vault" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-vault-token" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-46">
+        <UserObject label="Audit Log" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-vault-token" linkTarget="_blank" id="ZZ5xYyGuq51V9hhBytKh-46">
           <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="ZZ5xYyGuq51V9hhBytKh-40" vertex="1">
             <mxGeometry x="12.5" y="152" width="135" height="20" as="geometry" />
           </mxCell>
@@ -126,13 +126,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-54" value="ABHA DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="938" y="270" width="60" height="60" as="geometry" />
+          <mxGeometry x="938" y="261" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZZ5xYyGuq51V9hhBytKh-56" target="ZZ5xYyGuq51V9hhBytKh-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-56" value="Health ID Log DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="938" y="346" width="60" height="60" as="geometry" />
+          <mxGeometry x="938" y="337" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZZ5xYyGuq51V9hhBytKh-58" target="ZZ5xYyGuq51V9hhBytKh-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -141,13 +141,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-58" value="PHR DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="938" y="418" width="60" height="60" as="geometry" />
+          <mxGeometry x="938" y="413" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZZ5xYyGuq51V9hhBytKh-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZZ5xYyGuq51V9hhBytKh-61" target="ZZ5xYyGuq51V9hhBytKh-46" edge="1">
+        <mxCell id="ZZ5xYyGuq51V9hhBytKh-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZZ5xYyGuq51V9hhBytKh-61" target="yARi2ZSW1CV-vEadF2Cn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-61" value="Vault DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="938" y="491" width="60" height="60" as="geometry" />
+          <mxGeometry x="850" y="550" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-63" value="Kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="488" y="391" width="50" height="30" as="geometry" />
@@ -267,6 +267,17 @@
         </mxCell>
         <mxCell id="ZZ5xYyGuq51V9hhBytKh-109" value="." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1045" y="118" width="30" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Vault" treeRoot="1" link="http://100.65.158.39/abdmv3/api/abdm-vault-token" linkTarget="_blank" id="yARi2ZSW1CV-vEadF2Cn-1">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="667" y="468" width="135" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yARi2ZSW1CV-vEadF2Cn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yARi2ZSW1CV-vEadF2Cn-2" target="ZZ5xYyGuq51V9hhBytKh-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yARi2ZSW1CV-vEadF2Cn-2" value="Log DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="938" y="490" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
