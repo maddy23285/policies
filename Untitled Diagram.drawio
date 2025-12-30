@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ufgr9dxirdmzIPi7sPfY-87" value="TCL Redis" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
-          <mxGeometry x="658" y="841" width="50" height="42" as="geometry" />
+          <mxGeometry x="658" y="850" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ufgr9dxirdmzIPi7sPfY-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ufgr9dxirdmzIPi7sPfY-74" target="ufgr9dxirdmzIPi7sPfY-87">
           <mxGeometry relative="1" as="geometry" />
@@ -217,7 +217,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ufgr9dxirdmzIPi7sPfY-103" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
-          <mxGeometry x="434.3" y="841" width="56.699999999999996" height="42" as="geometry" />
+          <mxGeometry x="434.3" y="850" width="56.699999999999996" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ufgr9dxirdmzIPi7sPfY-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ufgr9dxirdmzIPi7sPfY-105" target="ufgr9dxirdmzIPi7sPfY-116">
           <mxGeometry relative="1" as="geometry">
@@ -344,6 +344,12 @@
               <mxPoint x="175" y="500" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ufgr9dxirdmzIPi7sPfY-140" value="URL expiry: &amp;lt;= 10mins" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="250" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ufgr9dxirdmzIPi7sPfY-141" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;TCL Kafka&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="464" y="904" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
