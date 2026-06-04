@@ -44,19 +44,89 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9PRBQKjkKrYQVyG5I4b1-8" connectable="0" parent="9PRBQKjkKrYQVyG5I4b1-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://exampledomain.com/gw&lt;/font&gt;" vertex="1">
+        <mxCell id="9PRBQKjkKrYQVyG5I4b1-8" connectable="0" parent="9PRBQKjkKrYQVyG5I4b1-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://exampledomain.com/gw/*&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.5818" y="1" as="geometry">
             <mxPoint x="33" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9PRBQKjkKrYQVyG5I4b1-11" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://exampledomain.com/qa-gw&lt;/font&gt;" vertex="1">
+        <mxCell id="9PRBQKjkKrYQVyG5I4b1-11" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://exampledomain.com/qa-gw/*&lt;/font&gt;" vertex="1">
           <mxGeometry x="209" y="189" as="geometry" />
         </mxCell>
         <mxCell id="9PRBQKjkKrYQVyG5I4b1-12" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" value="App Middleware" vertex="1">
           <mxGeometry height="80" width="80" x="680" y="99" as="geometry" />
         </mxCell>
-        <mxCell id="9PRBQKjkKrYQVyG5I4b1-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Overall Flow (End-to-End)&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;Task - IT Infra Team&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;1.&amp;nbsp;Client Apps (left side)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt; Both Prod App and QA App will be sending requests to same domain / subdomain&lt;/p&gt;&lt;p&gt;2.&amp;nbsp;Network Layer (firewall / gateway)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt; Requests first hit a gateway/firewall/reverse proxy layer.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt;&amp;nbsp;This layer controls access and routes traffic.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt;&amp;nbsp;After filtering/routing, requests are &lt;b&gt;forwarded to: app-middleware-server-ip:80,443 &lt;/b&gt;respectively&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;Task - Application Team&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1. Install JVM (LTS)&amp;nbsp;&lt;/p&gt;&lt;p&gt;2. Install 2 instances of Tomcat server (LTS)&lt;/p&gt;&lt;p&gt;3. Install Nginx and route:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt; /gw → route to Prod Tomcat instance (running on port 8686)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt;&amp;nbsp;/qa-gw → route to QA Tomcat instance (running on port 8787)&lt;/p&gt;&lt;p&gt;4. Install middleware application.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; To perform the installation, application team need access to VM with administrator rights&lt;/p&gt;" vertex="1">
-          <mxGeometry height="520" width="730" x="70" y="280" as="geometry" />
+        <mxCell id="9PRBQKjkKrYQVyG5I4b1-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Overall Flow (End-to-End)&lt;/u&gt;&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;Task - IT Infra Team&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol start=&quot;2&quot; data-editing-info=&quot;{&amp;quot;applyListStyleFromLevel&amp;quot;:false,&amp;quot;orderedStyleType&amp;quot;:1}&quot; style=&quot;color: rgb(36, 36, 36); font-size: 15px; background-color: rgb(255, 255, 255); direction: ltr; list-style: decimal; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;li style=&quot;color: black; font-size: 12pt; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;div role=&quot;presentation&quot; style=&quot;border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit; direction: ltr;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Network Layer (firewall / gateway)&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul data-editing-info=&quot;{&amp;quot;applyListStyleFromLevel&amp;quot;:true}&quot; style=&quot;color: rgb(36, 36, 36); font-size: 15px; background-color: rgb(255, 255, 255); direction: ltr; list-style: disc; margin-top: 0px; margin-bottom: 0px; margin-left: 40px;&quot;&gt;&lt;li style=&quot;color: black; font-size: 12pt; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;div role=&quot;presentation&quot; style=&quot;border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit; direction: ltr;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Requests first hit a gateway/firewall/reverse proxy layer.&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;color: black; font-size: 12pt; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;div role=&quot;presentation&quot; style=&quot;border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit; direction: ltr;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;This layer controls access and routes traffic.&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;color: black; font-size: 12pt; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;div role=&quot;presentation&quot; style=&quot;font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; border: 0px; margin: 0px; padding: 0px; vertical-align: baseline; color: inherit; direction: ltr;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;After filtering/routing, requests coming from prod subdomain on ports &lt;b style=&quot;&quot;&gt;80 and 443 &lt;/b&gt;are forwarded to: &lt;b style=&quot;&quot;&gt;prod-ip:80, 443 respectively&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;Task - Application Team&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;1. Install JVM (LTS)&amp;nbsp;&lt;/p&gt;&lt;p&gt;2. Install 2 instances of Tomcat server (LTS)&lt;/p&gt;&lt;p&gt;3. Install Nginx and route:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt; /gw → route to Prod Tomcat instance (running on port 8686)&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;gt;&amp;nbsp;/qa-gw → route to QA Tomcat instance (running on port 8787)&lt;/p&gt;&lt;p&gt;4. Install middleware application.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; To perform the installation, application team need access to VM with administrator rights&lt;/p&gt;" vertex="1">
+          <mxGeometry height="520" width="730" x="660" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#00994D;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" value="Prod App" vertex="1">
+          <mxGeometry height="60" width="60" x="54.56" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-3" edge="1" parent="1" source="LIrOH1tGog1nvsz35YkR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LIrOH1tGog1nvsz35YkR-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="350" />
+              <mxPoint x="573" y="300" />
+            </Array>
+            <mxPoint x="684.5600000000001" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-4" connectable="0" parent="LIrOH1tGog1nvsz35YkR-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Forward to:&lt;/b&gt; prod-ip:80, 443&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2282" y="-3" as="geometry">
+            <mxPoint x="23" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-14" edge="1" parent="1" source="LIrOH1tGog1nvsz35YkR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#CC6600;" target="LIrOH1tGog1nvsz35YkR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Azure_Firewall_Policy.svg;" value="&lt;b&gt;Incoming Ports: &lt;/b&gt;80, 443" vertex="1">
+          <mxGeometry height="69" width="95.13" x="366.56" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-6" edge="1" parent="1" source="LIrOH1tGog1nvsz35YkR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC6600;" target="LIrOH1tGog1nvsz35YkR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="314.56" y="410" />
+              <mxPoint x="314.56" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-7" connectable="0" parent="LIrOH1tGog1nvsz35YkR-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20value%3D%22https%3A%2F%2Fexampledomain.com%2Fgw%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22190%22%20y%3D%2279%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5891" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-8" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#CC6600;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" value="QA App" vertex="1">
+          <mxGeometry height="60" width="60" x="54.56" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-9" edge="1" parent="1" source="LIrOH1tGog1nvsz35YkR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006633;" target="LIrOH1tGog1nvsz35YkR-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="314.56" y="300" />
+              <mxPoint x="314.56" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-10" connectable="0" parent="LIrOH1tGog1nvsz35YkR-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://prod.exampledomain.com/*&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5818" y="1" as="geometry">
+            <mxPoint x="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-11" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;https://qa.exampledomain.com/*&lt;/font&gt;" vertex="1">
+          <mxGeometry x="213.56" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-12" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" value="Prod App Middleware" vertex="1">
+          <mxGeometry height="80" width="80" x="684.5600000000001" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-13" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" value="QA App Middleware" vertex="1">
+          <mxGeometry height="80" width="80" x="684.5600000000001" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-15" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Forward to:&lt;/b&gt; qa-ip:80, 443&lt;/font&gt;" vertex="1">
+          <mxGeometry x="580" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Prod VM Configuration&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;OS: Windows&lt;/p&gt;&lt;p&gt;CPU: 10 Core&lt;/p&gt;&lt;p&gt;RAM: 32 GB&lt;/p&gt;&lt;p&gt;Stoage: 250GB&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LIrOH1tGog1nvsz35YkR-18" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;QA VM Configuration&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;OS: Windows&lt;/p&gt;&lt;p&gt;CPU: 4 Core&lt;/p&gt;&lt;p&gt;RAM: 8 GB&lt;/p&gt;&lt;p&gt;Stoage: 100GB&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="330" y="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
