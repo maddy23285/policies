@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="HeFFipxTAIrvVA9X54aB">
+    <mxGraphModel dx="2026" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-14" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ORI0jpZBgf21gf9fe1BH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004C99;strokeColor=none;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Upload + SHA256 Lookup&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Exact hit exists immediately&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-7" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ORI0jpZBgf21gf9fe1BH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.67" y="197" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-8" connectable="0" parent="ORI0jpZBgf21gf9fe1BH-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SHA Match" vertex="1">
+          <mxGeometry relative="1" x="-0.1725" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-15" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ORI0jpZBgf21gf9fe1BH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#001933;strokeColor=none;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Normalize + pHash&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Generate candidate document ID&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-16" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ORI0jpZBgf21gf9fe1BH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004C99;strokeColor=none;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;One Embedding Request&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;call to DINO service for 384D Vector&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-10" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ORI0jpZBgf21gf9fe1BH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-11" connectable="0" parent="ORI0jpZBgf21gf9fe1BH-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No candidates" vertex="1">
+          <mxGeometry relative="1" x="-0.1708" y="3" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-17" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ORI0jpZBgf21gf9fe1BH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=#CC6600;" value="&lt;font color=&quot;#ffffff&quot;&gt;Candidate Scoped Vector Search&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Top 5 cosine similarity&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-13" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="ORI0jpZBgf21gf9fe1BH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-18" connectable="0" parent="ORI0jpZBgf21gf9fe1BH-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.2208" as="geometry">
+            <mxPoint x="25" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-2" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H7Mca3Qm00UXkoagQUMW-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-3" connectable="0" parent="H7Mca3Qm00UXkoagQUMW-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.5057" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D9900;strokeColor=none;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Threshold Decision&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;score &amp;gt;= Threshold&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF442C;strokeColor=#FFFFFF;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Exact Duplicate&lt;br&gt;SHA256 math no pHash or DINO call&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="491" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-22" edge="1" parent="1" source="ORI0jpZBgf21gf9fe1BH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ORI0jpZBgf21gf9fe1BH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004C99;strokeColor=#CC6600;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Skip Vector Search&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;when pHash candidates = 0 Embedding is still generated&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="491" y="343" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D9900;strokeColor=none;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;New Document&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;score &amp;lt;= Threshold or no candidates Store SHA + pHash + Vector data&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="491" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="ORI0jpZBgf21gf9fe1BH-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#001933;align=left;" value="&lt;font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); font-size: 18px;&quot;&gt;&amp;nbsp;V2 Workflow&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px; color: rgb(0, 255, 255);&quot;&gt;&amp;nbsp; Light-weight AI Visual Confirmation&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="825" x="11" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF442C;strokeColor=#FFFFFF;" value="&lt;font color=&quot;#ffffff&quot;&gt;Visual Duplicate&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;score &amp;gt;= Threshold returns best match, no new record insertion&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="78" y="617" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-4" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#FFFFFF;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#DB7400;" value="`" vertex="1">
+          <mxGeometry height="226" width="163" x="538" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-6" edge="1" parent="1" source="H7Mca3Qm00UXkoagQUMW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" target="H7Mca3Qm00UXkoagQUMW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Mca3Qm00UXkoagQUMW-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;; font-size: 14px; line-height: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;This report closely matches a previously uploaded report. Would you like to continue processing it?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="116" width="149.5" x="544.75" y="647" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
