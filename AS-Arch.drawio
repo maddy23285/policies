@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="R3xKMnCdTgpDZcxnukRb">
+    <mxGraphModel dx="1747" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value=" " vertex="1">
+          <mxGeometry height="260" width="290" x="290" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-100" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="260" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-14" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;registration-app-service&amp;nbsp;&lt;/font&gt;(min: 3 -&amp;gt; 15&amp;nbsp; &amp;nbsp;| max: 20 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-97" edge="1" parent="ETMCQ06PRYSPlEvSHHiJ-11" source="ETMCQ06PRYSPlEvSHHiJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ETMCQ06PRYSPlEvSHHiJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="100" />
+              <mxPoint x="10" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-16" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#CCCCCC;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;app-connector-app-service&lt;/font&gt;&lt;font style=&quot;&quot;&gt; &lt;/font&gt;(min: 3 -&amp;gt; 20 | max: 10 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="270" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-17" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;consent-mgr-app-service (min: 3 -&amp;gt; 10 | max: 20 -&amp;gt; 30 )&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="270" x="10" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-19" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;login-app-service (min: 3 -&amp;gt; 15&amp;nbsp; | max: 20 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="220" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-21" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;profile-app-service&amp;nbsp;&lt;/font&gt;(min: 3 -&amp;gt; 15&amp;nbsp; | max: 20 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="220" x="10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-22" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;scan-and-pay-app-service (min: 3 -&amp;gt; 20 | max: 20 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="250" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-23" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;scan-n-share-app-service (min: 3 -&amp;gt; 20 | max: 20 -&amp;gt; 30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="250" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-24" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;user-ini-link-app-service&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(min: 3 -&amp;gt; 20 | max: 20 -&amp;gt; 30)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="250" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-120" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;health-locker-app-service (min: 3 -&amp;gt; 10 | max: 20 )&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="270" x="10" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-122" parent="ETMCQ06PRYSPlEvSHHiJ-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;care-context-link (min: 3 -&amp;gt; 10 | max: 20 )&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="270" x="10" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-4" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ETMCQ06PRYSPlEvSHHiJ-2" value="&amp;nbsp; &amp;nbsp; ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-1" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;labelPerimeter=1;" value="AarogyaSetu App" vertex="1">
+          <mxGeometry height="40" width="22.86" x="90" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-25" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;labelPerimeter=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;AS - WSO2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="190" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 8.5pt; line-height: 115%; font-family: Aptos, sans-serif;&quot;&gt;min 4 | max 10 nodes&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="170" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-41" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="ETMCQ06PRYSPlEvSHHiJ-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ABHA &amp;amp; PHR Enrollment Services" vertex="1">
+          <mxGeometry height="70" width="310" x="710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-80" parent="ETMCQ06PRYSPlEvSHHiJ-26" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;abha-app-service (min: 80 | max: 225)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="10" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-81" parent="ETMCQ06PRYSPlEvSHHiJ-26" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;phr-enrollment-app-service (min: 40 | max: 60)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="10" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-48" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ETMCQ06PRYSPlEvSHHiJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-50" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ETMCQ06PRYSPlEvSHHiJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-124" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-44" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="HIECM Services" vertex="1">
+          <mxGeometry height="146" width="310" x="710" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-107" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="290" x="9" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-106" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;scan-gateway-service (min: 10 | max: NotSet)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="10" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-111" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;patient-share-app (min: 35 | max: 40)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="11" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-112" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;user-initiated-linking-api (min: 10 | max: 20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="290" x="11" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-119" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;consent-manager-app-service (min: 20 | max: 40)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="281" x="11" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-121" parent="ETMCQ06PRYSPlEvSHHiJ-44" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;subscription-app-service (min: 10 | max: 20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="281" x="11" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-83" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-14" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="160" as="sourcePoint" />
+            <mxPoint x="650" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-84" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ABHA &amp;amp; PHR Profile Services " vertex="1">
+          <mxGeometry height="85" width="310" x="710" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-85" parent="ETMCQ06PRYSPlEvSHHiJ-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;abdm-abha-profile-app (min: 30 | max: 80)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="10" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-86" parent="ETMCQ06PRYSPlEvSHHiJ-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;phr-profile-app-servce (min: 60 | max: 80)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="10" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-126" parent="ETMCQ06PRYSPlEvSHHiJ-84" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; " vertex="1">
+          <mxGeometry height="20" width="240" x="10" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-88" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-85" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="182" as="sourcePoint" />
+            <mxPoint x="710" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-103" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-86" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="200" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-105" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-100" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-107" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="370" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-117" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-17" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-119" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-123" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-120" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-121" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="410" as="sourcePoint" />
+            <mxPoint x="810" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-38" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;labelPerimeter=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;ABDM - WSO2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 8.5pt; line-height: 115%; font-family: Aptos, sans-serif;&quot;&gt;Total: 30 Nodes&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="580" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="ETMCQ06PRYSPlEvSHHiJ-127" edge="1" parent="1" source="ETMCQ06PRYSPlEvSHHiJ-122" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ETMCQ06PRYSPlEvSHHiJ-126" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="520" as="sourcePoint" />
+            <mxPoint x="520" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
